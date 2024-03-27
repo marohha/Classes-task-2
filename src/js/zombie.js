@@ -1,11 +1,11 @@
-import Character from "./character";
+import Character from './character';
 
-export default class Zombie extends Character { 
-    constructor(name, type = 'Zombie') {
-        super(name, type);
-        this.name = name;
-        this.type = type;
-        this.attack = 40;
-        this.defence = 10;
-    }
+export default class Zombie extends Character {
+  constructor(name, type = 'Zombie') {
+    super(name, type);
+    this.name = name;
+    this.type = type;
+    this.attack = 40;
+    this.defence = 10;
+  }
 }
